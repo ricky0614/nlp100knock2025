@@ -2,7 +2,7 @@ text_A = 'パトカー'
 text_B = 'タクシー'
 answer = ''
 
-for i in range(4):
+for i in range(len(text_A)):
   answer += text_A[i]
   answer += text_B[i]
 
