@@ -23,7 +23,7 @@ def alphabet_ngram(n, text): # 入力は文字列を想定
 text = "I am an NLPer"
 
 print('文字tri-gram:')
-alphabet_ngram(3,text)
+alphabet_ngram(3, text)
 print('---------------------------------')
 print('単語bi-gram:')
 word_ngram(2, text)
