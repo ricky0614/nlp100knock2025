@@ -1,0 +1,10 @@
+import gzip
+import json
+
+# 参考: https://blog.amedama.jp/entry/2018/08/01/230413
+# 参考: https://note.nkmk.me/python-json-load-dump/
+
+file = 'jawiki-country.json.gz'
+
+with gzip.open(file) as f:
+	data = json.load(f)
