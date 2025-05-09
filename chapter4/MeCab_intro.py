@@ -1,2 +1,6 @@
-# 参考: https://qiita.com/Ninagawa123/items/c90cccb453e2a6fc4466
-! pip install mecab-python3 unidic-lite
+!apt-get -y install mecab libmecab-dev mecab-ipadic-utf8
+!pip install --force-reinstall mecab-python3
+!cp /etc/mecabrc /usr/local/etc/
+
+# IPA辞書を利用する
+# 茶筌出力にしたいときはunidic-liteを利用する
