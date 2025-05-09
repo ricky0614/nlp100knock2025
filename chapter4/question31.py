@@ -1,5 +1,3 @@
-# 参考: https://qiita.com/automation2025/items/7474deca81fd8f6cda07
-
 text = '''
 メロスは激怒した。
 必ず、かの邪智暴虐の王を除かなければならぬと決意した。
